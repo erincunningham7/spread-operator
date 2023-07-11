@@ -19,5 +19,10 @@ console.log("Third array:", arr3);
 console.log("Fourth array:", arr4);
 
 // Copying an object
+let obj1 = {a: 1, b: 2, c: 3 };
+let obj2 = { ...obj1, d: 4};
+let obj3 = { ...obj1, b: 5 }
+console.log('First object:', obj1);
+console.log('Second object:', obj2);
 
 // Copying only part of an array/object
