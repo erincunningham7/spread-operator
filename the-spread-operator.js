@@ -26,3 +26,5 @@ console.log('First object:', obj1);
 console.log('Second object:', obj2);
 
 // Copying only part of an array/object
+let arr5 = [ ...arr1, { ...obj1}, ...arr3, 'x', 'y', 'z'];
+console.log(arr5);
